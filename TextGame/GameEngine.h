@@ -18,6 +18,16 @@ public:
 	string SetName(wstring Nam);
 };
 
+class MainFunc{
+	struct Level
+	{
+		string name;
+		string description;
+
+	} level;
+
+};
+
 wstring Player::GetCharacterStats() {
 
 		wstring ret;
@@ -29,7 +39,7 @@ wstring Player::GetCharacterStats() {
 
 string Player::SetName(wstring Nam)
 {
-	string = "Podaj imiê swojego herosa";
+	string ret = "Podaj imiê swojego herosa:\n";
 	name = Nam;
-	return 0;
+	return ret;
 }
